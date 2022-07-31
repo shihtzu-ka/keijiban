@@ -1,0 +1,130 @@
+/*ヘッダー*/
+.header_list {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+.header_list ul{
+    list-style-type: none;
+}
+
+.header_list li {
+    margin-top: 8px;
+    margin-left: 48px;
+    float: left;
+}
+
+/*メイン左側*/
+.left h1 {
+    border-bottom: 1px solid black;
+    border-left: 4px solid black;
+}
+
+.left {
+    float: left;
+    width: 63%;
+    margin-bottom: 24px;
+}
+
+h2 { 
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-left: 4px red solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+form { 
+    margin: 0;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+}
+
+form div {
+    padding: 15px;
+}
+
+.text, textarea {
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 0;
+    border-bottom: 1px rgb(128, 124, 124) solid;
+    background-color: #f1f1f1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.submit {
+    color: white;
+    background-color: gray;
+}
+
+.kiji {
+    margin-top: 30px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+}
+
+.contents {
+    margin: 10px auto;
+    font-size: 15px;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.handlename{
+    margin-top: 5px;
+    font-size: 5px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+/*メイン右側*/
+.right {
+    float: right;
+    width: 32%;
+}
+
+.right h1 {
+    border-bottom: 1px dashed black;
+}
+
+.side ul {
+    list-style-type: none;
+    margin-bottom: 24px;
+}
+
+.side li {
+    margin-top: 24px;
+}
+
+/*フッター*/
+footer {
+    clear: both;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 8px;
+}
